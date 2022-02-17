@@ -9,6 +9,7 @@ Thought of this as a dfs problem and wrote a recursive solution first. But got T
 So i tried to reduce the space consumed in each function call(as if the stack limit is reached can also lead to TLE). So I tried reducing the number of var I am passing in the function calls and I was not getting TLE error.
 
 **TLE does not always mean our solution is not optimized but also means that we need to reduce the amount of space consumed.**
+**Adding extra loops to avoid the dfs calls also resuces the runtime. For example in this case, I tried adding a for loop to return False if the all the letters in the word is not in the board and it increased my runtime to 96%. This may not work in all the problems but worth a shot.**
 
 Runtime: 7340 ms, faster than 48.10% of Python3 online submissions for Word Search.
 Memory Usage: 14 MB, less than 67.74% of Python3 online submissions for Word Search.
