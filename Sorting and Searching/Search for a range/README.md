@@ -10,3 +10,12 @@ Notes:
 2. When the number is equal to the required range, do it twice, one with only moving to left, other with moving towards right. 
 3. Create a separate function for binary search.
 4. Call this function with a parameter called bias, which decides which side to search when the number is equal.
+
+Runtime
+95 ms
+Beats
+25.75%
+Memory
+15.4 MB
+Beats
+87.22%
